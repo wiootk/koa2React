@@ -1,0 +1,16 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>React App</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ </head>
+ <body>
+   <div id="app"><%- html %></div>
+    <script type="text/javascript" charset="utf-8">
+    //window.__REDUX_STATE__ = <%- JSON.stringify(reduxState) %>;
+      window.__REDUX_STATE__ = JSON.parse('<%- JSON.stringify(reduxState)%>');
+    </script>
+   <script src="/bundle.js"></script>
+ </body>
+ </html>
