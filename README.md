@@ -1,5 +1,5 @@
 # koa2React 
-koa2+React的前后端同构demo 
+koa2+React的前后端同构demo  
 技术栈：`koa2+React`  
 搭建教程：[参见](http://wioo.tk/front/2017/11/27/ReactIsomorphism.html)  
 
